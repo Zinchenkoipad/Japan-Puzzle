@@ -1,0 +1,33 @@
+.cell{
+  padding: 1px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+.box{
+  display:-ms-grid;
+  display:grid;
+  -ms-grid-rows: (17px)[5];
+  -ms-grid-columns: (17px)[5];
+      grid-template: repeat(5, 17px) / repeat(5, 17px);
+  border: 1px solid black;
+
+}
+.japanKira{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 86px 86px 86px 86px 87px;
+  -ms-grid-columns: 86px 86px 86px 86px 36px;
+      grid-template: 86px 86px 86px 86px 87px / 86px 86px 86px 86px 36px;
+}
+.stickyUp{
+	position: -webkit-sticky;
+	position: sticky;
+	top:0px;
+}
+.stickyleft{
+	position: -webkit-sticky;
+	position: sticky;
+	left:0px;
+}
